@@ -1,32 +1,34 @@
+import { Link } from 'react-router-dom'
+
 function Navbar() {
     return (
       <nav className="fixed top-8 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-5xl px-6">
         <div className="bg-card/80 backdrop-blur-xl rounded-full border border-gray-800 px-8 py-4 shadow-2xl">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <div className="flex items-center">
+            <Link to="/" className="flex items-center">
               <h1 className="text-2xl font-bold">
                 <span className="text-white">Learn</span>
                 <span className="bg-gradient-to-r from-gradientStart to-gradientEnd bg-clip-text text-transparent">
                   Flow
                 </span>
               </h1>
-            </div>
+            </Link>
   
             {/* Navigation Links */}
             <div className="hidden md:flex items-center gap-8">
-              <a href="#home" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">
+              <Link to="/" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">
                 Home
-              </a>
+              </Link>
               <a href="#help" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">
                 Help Center
               </a>
               <a href="#contact" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">
                 Contact us
               </a>
-              <a href="#demo" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">
+              <Link to="/demo" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">
                 Demo
-              </a>
+              </Link>
               <button className="px-6 py-2.5 bg-gradient-to-r from-gradientStart to-gradientEnd text-white font-semibold rounded-full hover:shadow-lg hover:shadow-gradientStart/50 transition-all duration-300 transform hover:scale-105 text-sm">
                 Sign in/Sign Up
               </button>
