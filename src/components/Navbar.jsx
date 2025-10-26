@@ -20,12 +20,12 @@ function Navbar() {
               <Link to="/" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">
                 Home
               </Link>
-              <a href="#help" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">
+              <Link to="/help" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">
                 Help Center
-              </a>
-              <a href="#contact" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">
+              </Link>
+              <Link to="/contact" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">
                 Contact us
-              </a>
+              </Link>
               <Link to="/demo" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">
                 Demo
               </Link>
