@@ -37,15 +37,15 @@ function App() {
             </p>
             
             <h2 className="text-6xl font-bold text-white mb-6 leading-tight">
-              Master Any Subject with
+              Your AI Study Partner with
               <span className="bg-gradient-to-r from-gradientStart to-gradientEnd bg-clip-text text-transparent">
-                {" "}Intelligent Guidance
+                {" "}Context-Aware Intelligence
               </span>
             </h2>
             
             <p className="text-gray-300 text-xl mb-12 leading-relaxed">
-              Experience personalized learning that adapts to your pace, style, and goals. 
-              Transform the way you learn with AI-powered insights and personalized content.
+              Seamlessly capture notes, monitor study sessions, and get personalized AI tutoring that knows your strengths and weaknesses. 
+              Transform the way you learn with intelligent guidance that adapts to your performance.
             </p>
 
             {/* CTA Buttons */}
