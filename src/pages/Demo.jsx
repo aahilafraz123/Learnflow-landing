@@ -1,4 +1,5 @@
     import LiquidEther from '../components/LiquidEther'
+    import { Link } from 'react-router-dom'
 
 function Demo() {
   return (
@@ -211,9 +212,9 @@ function Demo() {
               <p className="text-gray-300 text-lg mb-8">
                 Join thousands of students already using LearnFlow
               </p>
-              <button className="px-8 py-4 bg-gradient-to-r from-gradientStart to-gradientEnd text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-gradientStart/50 transition-all duration-300 transform hover:scale-105">
+              <Link to="/auth" className="px-8 py-4 bg-gradient-to-r from-gradientStart to-gradientEnd text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-gradientStart/50 transition-all duration-300 transform hover:scale-105 inline-block text-center">
                 Get Started Free
-              </button>
+              </Link>
             </div>
           </div>
         </div>

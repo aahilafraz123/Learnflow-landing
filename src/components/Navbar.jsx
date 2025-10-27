@@ -29,9 +29,9 @@ function Navbar() {
               <Link to="/demo" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm font-medium">
                 Demo
               </Link>
-              <button className="px-6 py-2.5 bg-gradient-to-r from-gradientStart to-gradientEnd text-white font-semibold rounded-full hover:shadow-lg hover:shadow-gradientStart/50 transition-all duration-300 transform hover:scale-105 text-sm">
+              <Link to="/auth" className="px-6 py-2.5 bg-gradient-to-r from-gradientStart to-gradientEnd text-white font-semibold rounded-full hover:shadow-lg hover:shadow-gradientStart/50 transition-all duration-300 transform hover:scale-105 text-sm inline-block text-center">
                 Sign in/Sign Up
-              </button>
+              </Link>
             </div>
   
             {/* Mobile Menu Button */}

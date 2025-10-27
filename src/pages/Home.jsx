@@ -54,9 +54,9 @@ function Home() {
 
             {/* CTA Buttons */}
             <div className="flex gap-4 flex-wrap">
-              <button className="px-8 py-4 bg-gradient-to-r from-gradientStart to-gradientEnd text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-gradientStart/50 transition-all duration-300 transform hover:scale-105">
-                Get Started Free
-              </button>
+            <Link to="/auth" className="px-8 py-4 bg-gradient-to-r from-gradientStart to-gradientEnd text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-gradientStart/50 transition-all duration-300 transform hover:scale-105 inline-block text-center">
+              Get Started Free
+            </Link>
 <Link to="/demo" className="px-8 py-4 bg-card text-white font-semibold rounded-lg border border-gray-700 hover:border-gradientStart transition-all duration-300 inline-block text-center">
               Watch Demo
             </Link>
